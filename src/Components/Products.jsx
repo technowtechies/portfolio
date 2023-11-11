@@ -28,10 +28,10 @@ function Products() {
         <Myproducts image={row2img4} name="Audio system" />
       </div>
       <div className="mx-20 flex gap-6 mt-14">
-        <Myproducts image={row2img1} name="infotainment" />
-        <Myproducts image={row2img2} name="Car camera" />
-        <Myproducts image={row2img3} name="Leather" />
-        <Myproducts image={row2img4} name="Audio system" />
+        <Myproducts image={row2img1} name="Perfume" />
+        <Myproducts image={row2img2} name="Car Charger" />
+        <Myproducts image={row2img3} name="DVR Camera" />
+        <Myproducts image={row2img4} name="Car cleaning kit" />
       </div>
     </div>
   );
