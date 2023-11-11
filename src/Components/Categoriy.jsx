@@ -28,7 +28,7 @@ function Categoriy() {
                     className="absolute w-[600px] h-[480px] object-cover -top-20"
                   />
                   <p className="text-center font-bold text-2xl  uppercase absolute bottom-11 ">
-                    Infotainement system
+                    INFOTAINMENT SYSTEM
                   </p>
                 </div>
               </div>
@@ -43,7 +43,7 @@ function Categoriy() {
                   className="absolute w-[600px] h-[480px] object-cover -top-20"
                 />
                 <p className="text-center font-bold text-2xl  uppercase absolute bottom-11 ">
-                  Audio system
+                  AUDIO SYSTEM
                 </p>
               </div>
             </div>
@@ -61,7 +61,7 @@ function Categoriy() {
                   className="absolute w-[450px] h-[450px] object-cover -top-20"
                 />
                 <p className="text-center font-bold text-2xl  uppercase absolute bottom-11 ">
-                  Alloy wheels
+                  ALLOY WHEELS
                 </p>
               </div>
             </div>
@@ -74,7 +74,7 @@ function Categoriy() {
                   className="absolute w-[600px] h-[480px] object-cover -top-20"
                 />
                 <p className="text-center font-bold text-2xl  uppercase absolute bottom-11 ">
-                  Seat covers
+                  SEAT COVERS
                 </p>
               </div>
             </div>
