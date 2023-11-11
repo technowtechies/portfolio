@@ -7,10 +7,13 @@ import seat from "../Assests/Group 1943.png";
 function Categoriy() {
   return (
     <div className="w-screen h-full">
+     
       <h1 className="text-center font-extrabold text-6xl mt-14">Categories</h1>
       <div className="w-full flex gap-2 mt-10 p-9 ">
         {/* letft side */}
         <div className="flex-1 w-full">
+        <div className="flex flex-col gap-6">
+        <div>
           <div className="bg-[#A09EFF] w-[700px] h-[1300px] rounded-[50px] flex flex-col items-center justify-center gap-6">
             <div className="w-full flex justify-center flex-col items-center mt-14">
               {/* <div className="w-3/4 h-[490px]  bg-white rounded-2xl ">
@@ -47,7 +50,22 @@ function Categoriy() {
                 </p>
               </div>
             </div>
+            </div>
           </div>
+          <div className="bg-[#7FCBF5] w-[700px] h-[650px] px-7 rounded-[60px]">
+              <div className="w-[582px] h-[476px] bg-white flex flex-col items-center rounded-[50px] my-24 mx-7 relative ">
+                <img
+                  src={seat}
+                  alt=""
+                  srcset=""
+                  className="absolute w-[600px] h-[480px] object-cover -top-20"
+                />
+                <p className="text-center font-bold text-2xl  uppercase absolute bottom-11 ">
+                  SEAT COVERS
+                </p>
+              </div>
+            </div>
+            </div>
         </div>
         {/* right side */}
         <div className="flex-1 w-full  ">
@@ -65,7 +83,20 @@ function Categoriy() {
                 </p>
               </div>
             </div>
-            <div className="bg-[#7FCBF5] w-[675px] h-[650px] px-7 rounded-[60px]">
+            <div className="bg-[#7FCBF5] w-[700px] h-[650px] px-7 rounded-[60px]">
+              <div className="w-[582px] h-[476px] bg-white flex flex-col items-center rounded-[50px] my-24 mx-7 relative ">
+                <img
+                  src={seat}
+                  alt=""
+                  srcset=""
+                  className="absolute w-[600px] h-[480px] object-cover -top-20"
+                />
+                <p className="text-center font-bold text-2xl  uppercase absolute bottom-11 ">
+                  SEAT COVERS
+                </p>
+              </div>
+            </div>
+            <div className="bg-[#7FCBF5] w-[700px] h-[650px] px-7 rounded-[60px]">
               <div className="w-[582px] h-[476px] bg-white flex flex-col items-center rounded-[50px] my-24 mx-7 relative ">
                 <img
                   src={seat}
@@ -79,8 +110,41 @@ function Categoriy() {
               </div>
             </div>
           </div>
-        </div>
+        </div>       
       </div>
+      {/* <div className="w-full flex p-9 ">
+      <div className="flex-1 w-full">
+      <div className="flex flex-row gap-10">
+              <div className="bg-[#7FCBF5] w-[700px] h-[650px] px-7 rounded-[60px]">
+              <div className="w-[582px] h-[476px] bg-white flex flex-col items-center rounded-[50px] my-24 mx-7 relative ">
+                <img
+                  src={seat}
+                  alt=""
+                  srcset=""
+                  className="absolute w-[600px] h-[480px] object-cover -top-20"
+                />
+                <p className="text-center font-bold text-2xl  uppercase absolute bottom-11 ">
+                  SEAT COVERS
+                </p>
+              </div>
+              </div>
+
+              <div className="bg-[#7FCBF5] w-[675px] h-[650px] px-7 rounded-[60px]">
+              <div className="w-[582px] h-[476px] bg-white flex flex-col items-center rounded-[50px] my-24 mx-7 relative ">
+                <img
+                  src={seat}
+                  alt=""
+                  srcset=""
+                  className="absolute w-[600px] h-[480px] object-cover -top-20"
+                />
+                <p className="text-center font-bold text-2xl  uppercase absolute bottom-11 ">
+                  SEAT COVERS
+                </p>
+              </div>
+            </div>
+      </div>
+      </div>
+    </div> */}
     </div>
   );
 }

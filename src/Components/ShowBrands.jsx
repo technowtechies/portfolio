@@ -7,10 +7,13 @@ import LogoSony from "../Assests/Sony-logo.png";
 import LogoJBl from "../Assests/jbl-2-logo-png-transparent.png";
 import Gradient from "../Assests/gradiant.jpeg";
 import Spearker from "../Assests/speakers.png";
+import Prad from "../Assests/logoprad s.png";
+import Proman from "../Assests/logoproman s.jpeg";
+import Jlaudio from "../Assests/logojlaudio s.png";
 
 import Marquee from "react-fast-marquee";
 
-let logos = [Logo3m, Harman, LogoOsram, LogoPoineer, LogoSony, LogoJBl];
+let logos = [Logo3m, Harman, LogoOsram, LogoPoineer, LogoSony, LogoJBl,Prad,Proman,Jlaudio];
 
 function ShowBrands() {
   return (

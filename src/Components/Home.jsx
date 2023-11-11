@@ -30,13 +30,17 @@ export default function Home() {
         </div>
         {/* eliation text */}
         <div className="text-white absolute bottom-14 left-32 ">
-          <h1 className="text-[80px] font-extrabold text-slate-300  leading-[1.1]">
+          <div className="flex flex-col items-start">
+          <h1 className="text-[80px] text-start font-extrabold text-slate-300  leading-[1.1]">
             Elevate your ride with <br />
             premium car Accessories
           </h1>
-          <button className="bg-[#FFA52F] text-black font-bold py-2 rounded-lg text-[12px] mt-10 px-8 ">
+          <div>
+          <button className="bg-[#FFA52F] text-black font-bold py-2 rounded-lg text-[14px] mt-10 px-8">
             View Products
           </button>
+          </div>
+          </div>
         </div>
       </div>
     </div>
