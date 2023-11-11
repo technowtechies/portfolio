@@ -6,8 +6,8 @@ const Gallabox = () => {
       w.gbwawc = {
         url: u,
         options: {
-          waId: "+91 8884102020",
-          siteName: "mingmorsels",
+          waId: "+91 919995502",
+          siteName: "carvibes",
           siteTag: "Usually reply in 15 minutes",
           siteLogo:
             "https://res.cloudinary.com/dd0nu3k5p/image/upload/v1691349695/Mingmorsels_large_h7qd6k.svg",
@@ -17,7 +17,7 @@ const Gallabox = () => {
             "Our products are made with the highest quality ingredients with best in industry standard practices.",
           brandColor: "#25D366",
           messageText: "I am interested in",
-          replyOptions: ["Cookies", "Muffins", "Call back"],
+          replyOptions: ["infotainment System", "Audio Systems", "PPF Body Wrap"],
         },
       };
       var h = d.getElementsByTagName(s)[0],
