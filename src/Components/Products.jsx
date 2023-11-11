@@ -16,16 +16,16 @@ function Products() {
         Products
       </h1>
       <div className="mx-20 flex gap-6 mt-14">
-        <Myproducts image={info} name="infotainment" />
-        <Myproducts image={Car} name="Car camera" />
-        <Myproducts image={Leather} name="Leather" />
+        <Myproducts image={info} name="Infotainment System" />
+        <Myproducts image={Car} name="360 Car Camera" />
+        <Myproducts image={Leather} name="Leather Seat Cover" />
         <Myproducts image={Audio} name="Audio system" />
       </div>
       <div className="mx-20 flex gap-6 mt-14">
-        <Myproducts image={row2img1} name="infotainment" />
-        <Myproducts image={row2img2} name="Car camera" />
-        <Myproducts image={row2img3} name="Leather" />
-        <Myproducts image={row2img4} name="Audio system" />
+        <Myproducts image={row2img1} name="Fog Lamp" />
+        <Myproducts image={row2img2} name="Car Speaker" />
+        <Myproducts image={row2img3} name="Alloy Wheels" />
+        <Myproducts image={row2img4} name="3M Sun Control Film" />
       </div>
       <div className="mx-20 flex gap-6 mt-14">
         <Myproducts image={row2img1} name="Perfume" />
