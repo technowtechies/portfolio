@@ -47,11 +47,7 @@ function ShowBrands() {
             Best seller
           </h1>
           <p className="text-xl  font-normal mt-12 w-[500px]">
-            Let's make your work more organize and easily using the Taskio
-            Dashboard with many of the latest featuresin managing work every
-            day. Let's make your work more organize and easily using the Taskio
-            Dashboard with many of the latest featuresin managing work every
-            day.
+            Our technician experience is more than 13  We all use plug and play. We don’t expired your warranty.We use best quality
           </p>
         </div>
       </div>
