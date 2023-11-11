@@ -1,7 +1,7 @@
 import React from "react";
 import gradient from "../Assests/gradiant.jpeg";
 import {FiPhoneCall} from "react-icons/fi"
-import {SlLocationPin} from "react-icons/sl"
+import {TfiLocationPin} from "react-icons/tfi"
 import {TfiEmail} from "react-icons/tfi"
 import { BsFacebook, BsInstagram, BsYoutube } from "react-icons/bs";
 import { RiTwitterXFill } from "react-icons/ri"
@@ -33,17 +33,16 @@ function Footer() {
           
           <div className="absolute top-0 px-20">
           <h1 className="font-bold text-2xl text-center py-5 "> Reach us</h1>
-          <div className="flex items-center gap-2 w-full text-2xl"> <FiPhoneCall/>
+          <div className="flex items-start gap-2 w-full text-xl"> <FiPhoneCall/>
           <p>+91 9199955502 </p>
           </div>
-          <div className="flex items-center gap-2 w-full text-2xl"> <TfiEmail/>
+          <div className="flex items-start gap-2 w-full text-xl mt-2"> <TfiEmail/>
           <p className="">Carvibes555@gmail.com</p></div>
-          <div className="flex items-start gap-2 w-full text-2xl"> <SlLocationPin/>
-          <p className="w-[290px] text-start">
-            525,Bannerghatta Rd,Sundar Ram Shetty Nagar,Bilekahali,Signal Next to Kalyani motors service nearby Vega city Mall, Bengaluru 76
-          </p></div>
+          <div className="flex items-start gap-2 w-full text-xl mt-4"> <TfiLocationPin/>
+          <p className="w-[287px] text-start">525,Bannerghatta Rd,Sundar Ram Shetty Nagar,Bilekahali,Signal Next to Kalyani motors service nearby Vega city Mall, Bengaluru 76</p>
+          </div>
           <h1 className="text-[#191A15] text-3xl font-bold mt-5 mb-5 text-start">Follow Us</h1>
-          <div className="flex justify-between text-start mt-5 ">
+          <div className="flex justify-between text-start mt-6 ">
           <BsInstagram className="text-pink-600 hover:text-pink-500 text-4xl mx-1 cursor-pointer" />
           <BsFacebook className="text-blue-600 hover:text-blue-500 text-4xl mx-1 cursor-pointer" />
           <RiTwitterXFill  className="text-black hover:text-black text-4xl mx-1 cursor-pointer" />
@@ -83,3 +82,6 @@ export default Footer;
 // font-style: normal;
 // font-weight: 500;
 // line-height: normal;
+
+
+// 525,Bannerghatta Rd,Sundar Ram Shetty Nagar,Bilekahali,Signal Next to Kalyani motors service nearby Vega city Mall, Bengaluru 76
