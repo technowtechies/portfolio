@@ -34,7 +34,7 @@ function Footer() {
           <div className="absolute top-0 px-20">
           <h1 className="font-bold text-2xl text-center py-5 "> Reach us</h1>
           <div className="flex items-center gap-2 w-full text-2xl"> <FiPhoneCall/>
-          <p >+91 9199955502 </p>
+          <p>+91 9199955502 </p>
           </div>
           <div className="flex items-center gap-2 w-full text-2xl"> <TfiEmail/>
           <p className="">Carvibes555@gmail.com</p></div>
