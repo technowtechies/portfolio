@@ -47,7 +47,7 @@ function ShowBrands() {
             Best seller
           </h1>
           <p className="text-xl  font-normal mt-12 w-[500px]">
-            Our technician experience is more than 13  We all use plug and play. We don’t expired your warranty.We use best quality
+"With over 13 years of collective experience, our skilled technicians pride themselves on delivering top-notch service. We've embraced the convenience of plug-and-play solutions, ensuring a seamless experience for our clients. Rest assured, we value your trust and stand by the quality of our work, maintaining warranties without expiration. We are committed to providing the best possible service using high-quality standards. Your satisfaction is our priority."
           </p>
         </div>
       </div>
