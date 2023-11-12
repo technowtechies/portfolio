@@ -6,7 +6,7 @@ import Home from "./Components/Home";
 import Products from "./Components/Products";
 import ShowBrands from "./Components/ShowBrands";
 import Gallabox from "./Components/gallabox";
-
+import BottomFooter from "./Components/bottomFooter";
 import React from "react";
 import "./App.css"; // Import the global styles
 import "tailwindcss/tailwind.css"; // Import Tailwind CSS styles
@@ -23,7 +23,7 @@ const App = () => {
       <Products />
       <CarModify />
       <Footer />
-
+      <BottomFooter/>
   
     </div>
   );
