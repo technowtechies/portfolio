@@ -6,18 +6,18 @@ const Gallabox = () => {
       w.gbwawc = {
         url: u,
         options: {
-          waId: "+91 919995502",
-          siteName: "carvibes",
-          siteTag: "Usually reply in 15 minutes",
+          waId: "+91 9199955502",
+          siteName: "Carvibes",
+          siteTag: "Usually Reply in 15 Minutes",
           siteLogo:
             "https://res.cloudinary.com/dd0nu3k5p/image/upload/v1691349695/Mingmorsels_large_h7qd6k.svg",
           widgetPosition: "RIGHT",
           triggerMessage: "",
           welcomeMessage:
-            "Our products are made with the highest quality ingredients with best in industry standard practices.",
+            " Hello, have an idea to Customize your car , we are here to elevate your ride with premium car accessories",
           brandColor: "#25D366",
           messageText: "I am interested in",
-          replyOptions: ["infotainment System", "Audio Systems", "PPF Body Wrap"],
+          replyOptions: ["Infotainment System", "Audio Systems", "PPF Body Wrap", "Alloy Wheels", "Seat Covers", "Android System Bluepunk", "360 Degree Camera"],
         },
       };
       var h = d.getElementsByTagName(s)[0],
