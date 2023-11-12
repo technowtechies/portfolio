@@ -10,7 +10,7 @@ const Gallabox = () => {
           siteName: "Carvibes",
           siteTag: "Usually Reply in 15 Minutes",
           siteLogo:
-            "https://res.cloudinary.com/dd0nu3k5p/image/upload/v1691349695/Mingmorsels_large_h7qd6k.svg",
+            "https://s3-alpha-sig.figma.com/img/f22f/bd9f/10507b295a63295a49f6c6446b5149e7?Expires=1700438400&Signature=ABK11kzC8wF28xTrD9osrezqiEnzbqRjHjOoJI40gnDHzg3uyfRQXC1SOsF-uA0kspqQQ01soJFOVKRQwYvhu98FDrmIg0gFN6cjFKx3jg8BqNIahYsRGL0hIF5qy7s5rLtqXmQImUsrQDZyA2YcsTCgBne6632OxcI0R4l1YSFuHH9sx2N-WzsPjmtDMOYptX9WY4utpdVg739aVGfennZhgVYTKSwmnYnmvsv9MFrxYcZurqeNDslQqTpdp~EpZKI51yj89LRqdYDqvY-vqgtHUG46x1wxl~fxVPNPn8B-RjELEeEKjLXhJuAeliH8eLgSOHId-ZuvtzLVkQpkuw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
           widgetPosition: "RIGHT",
           triggerMessage: "",
           welcomeMessage:
