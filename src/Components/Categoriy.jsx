@@ -92,7 +92,7 @@ function Categoriy() {
                   className="absolute w-[600px] h-[480px] object-cover -top-20"
                 />
                 <p className="text-center font-bold text-2xl  uppercase absolute bottom-11 ">
-                  SEAT COVERS
+                  PPF Body Wrap
                 </p>
               </div>
             </div>
@@ -105,7 +105,7 @@ function Categoriy() {
                   className="absolute w-[600px] h-[480px] object-cover -top-20"
                 />
                 <p className="text-center font-bold text-2xl  uppercase absolute bottom-11 ">
-                  SEAT COVERS
+                  Android System Bluepunk
                 </p>
               </div>
             </div>
