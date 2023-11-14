@@ -17,7 +17,7 @@ let logos = [Logo3m, Harman, LogoOsram, LogoPoineer, LogoSony, LogoJBl,Prad,Prom
 
 function ShowBrands() {
   return (
-    <div className="w-screen h-full">
+    <div className="w-screen h-full" >
       <img
         src={Gradient}
         alt=""
@@ -40,7 +40,7 @@ function ShowBrands() {
             ))}
           </div>
         </Marquee>
-        <h1 className="text-center font-extrabold text-6xl mt-14">About us</h1>
+        <h1 className="text-center font-extrabold text-6xl mt-14" id="aboutus">About us</h1>
       </div>
       <div className="flex items-center gap-12 relative">
         <img src={Spearker} alt="" srcset="" className="w-[670px] ml-20" />

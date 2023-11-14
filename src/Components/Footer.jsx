@@ -8,7 +8,7 @@ import { RiTwitterXFill } from "react-icons/ri"
 
 function Footer() {
   return (
-    <div className="w-screen h-full flex px-20 gap-8gap-16">
+    <div className="w-screen h-full flex px-20 gap-8gap-16" id="form">
 
 
 
