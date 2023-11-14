@@ -1,8 +1,18 @@
 import React from "react";
 import Carimage from "../Assests/Group 1941.jpg";
 export default function Home() {
+
+
+  const form =()=>{
+    window.location.href="#form"
+  }
+
+  const product = ()=>{
+    window.location.href="#product"
+  }
+
   return (
-    <div className="w-screen h-full">
+    <div className="w-screen h-full" id="home">
       <div className="h-screen w-full relative">
         <img
           src={Carimage}
@@ -19,11 +29,18 @@ export default function Home() {
           {/* div NAv LInks */}
           <div className="flex w-full items-center gap-10 justify-end px-4">
             <ul className="flex justify-between gap-10">
-              <li>Home</li>
-              <ul>Product</ul>
-              <ul>About us</ul>
+              <li>
+                <a href="#Home"> Home</a>
+               </li>
+               <li>
+                <a href="#product"> product</a>
+               </li>
+               <li>
+                <a href="#aboutus"> About us</a>
+               </li>
+             
             </ul>
-            <button className="bg-[#FFA52F] text-black font-bold py-2 px-4 rounded-lg text-[12px]">
+            <button className="bg-[#FFA52F] text-black font-bold py-2 px-4 rounded-lg text-[12px]" onClick={form}>
               Contact Us
             </button>
           </div>
@@ -36,7 +53,7 @@ export default function Home() {
             premium car Accessories
           </h1>
           <div>
-          <button className="bg-[#FFA52F] text-black font-bold py-2 rounded-lg text-[14px] mt-10 px-8">
+          <button className="bg-[#FFA52F] text-black font-bold py-2 rounded-lg text-[14px] mt-10 px-8" onClick={product}>
             View Products
           </button>
           </div>

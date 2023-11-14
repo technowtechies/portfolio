@@ -16,7 +16,7 @@ import row3img4 from "../Assests/carCleaningKit s.png";
 
 function Products() {
   return (
-    <div className="w-screen h-full">
+    <div className="w-screen h-full" id="product">
       <h1 className="text-center font-extrabold text-6xl mt-14 mb-6 ">
         Products
       </h1>
