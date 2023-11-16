@@ -4,6 +4,7 @@ import left from "../Assests/image 33.png";
 import wheel from "../Assests/image 31.png";
 import seat from "../Assests/Group 1943.png";
 import tesla from  "../Assests/Red-Tesla-Model-S-Car-1950x917-copy-3.png"
+import OS from "../Assests/OS-new-1024x661 (1).png";
 
 function Categoriy() {
   return (
@@ -100,7 +101,7 @@ function Categoriy() {
             <div className="bg-[#7FCBF5] w-[700px] h-[650px] px-7 rounded-[60px]">
               <div className="w-[582px] h-[476px] bg-white flex flex-col items-center rounded-[50px] my-24 mx-7 relative ">
                 <img
-                  src={seat}
+                  src={OS}
                   alt=""
                   srcset=""
                   className="absolute w-[600px] h-[480px] object-cover -top-20"
