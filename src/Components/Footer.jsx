@@ -57,7 +57,7 @@ function Footer() {
       </div>
       <div className="flex-1">
       <div className="flex-col bg-[#222938] w-full h-auto rounded-[20px] justify-center py-12  ">
-        <h1 className="text-white font-medium text-3xl w-full  ">Contact Us</h1>
+        <h1 className="text-white font-medium text-3xl w-full  text-center">Contact Us</h1>
         <div className="flex flex-col w-full px-20 py-20">
           <p className="text-white text-start text-2xl">Email</p>
           <input type="email" className="w-full mt-5 h-[50px] rounded-[10px] px-4" placeholder="Enter your email" />
