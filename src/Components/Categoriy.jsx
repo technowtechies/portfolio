@@ -98,7 +98,7 @@ function Categoriy() {
                 </p>
               </div>
             </div>
-            <div className="bg-[#7FCBF5] w-[700px] h-[650px] px-7 rounded-[60px]">
+            <div className="bg-[#EE5757] w-[700px] h-[650px] px-7 rounded-[60px]">
               <div className="w-[582px] h-[476px] bg-white flex flex-col items-center rounded-[50px] my-24 mx-7 relative ">
                 <img
                   src={OS}
