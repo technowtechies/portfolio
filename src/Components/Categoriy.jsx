@@ -44,7 +44,7 @@ function Categoriy() {
                   src={left}
                   alt=""
                   srcset=""
-                  className="absolute w-[600px] h-[480px] object-cover -top-20"
+                  className="absolute w-[600px] h-[480px] object-contain -top-20"
                 />
                 <p className="text-center font-bold text-2xl  uppercase absolute bottom-11 ">
                   AUDIO SYSTEM
