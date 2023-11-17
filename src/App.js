@@ -1,4 +1,3 @@
-
 import CarModify from "./Components/CarModify";
 import Categoriy from "./Components/Categoriy";
 import Footer from "./Components/Footer";
@@ -10,12 +9,23 @@ import BottomFooter from "./Components/bottomFooter";
 import React from "react";
 import "./App.css"; // Import the global styles
 import "tailwindcss/tailwind.css"; // Import Tailwind CSS styles
-
+import { ToastContainer } from "react-toastify";
 
 const App = () => {
   return (
-
     <div className="App w-full h-full">
+      <ToastContainer
+        position="bottom-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
       <Home />
       <ShowBrands />
       <Gallabox />
@@ -23,8 +33,7 @@ const App = () => {
       <Products />
       <CarModify />
       <Footer />
-      <BottomFooter/>
-  
+      <BottomFooter />
     </div>
   );
 };
