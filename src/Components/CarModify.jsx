@@ -5,7 +5,7 @@ import fort from "../Assests/Group 1947 (1).png";
 function CarModify() {
   return (
     <div className="w-screen h-full">
-      <h1 className="text-center font-extrabold text-6xl mt-20">
+      <h1 className="text-center font-extrabold text-[20px] xl:text-6xl mt-20">
         Have an Car Modification <br /> Idea?
         <span className="text-[#4A69E2]"> Let’s Discuss</span>
       </h1>
@@ -24,7 +24,7 @@ function CarModify() {
           src={fort}
           alt=""
           srcset=""
-          className="w-[1000px] h-[1000px] object-contain"
+          className="w-[400px] h-[250px] xl:w-[1000px] xl:h-[1000px] object-contain mt-10"
         />
       </div>
     </div>
