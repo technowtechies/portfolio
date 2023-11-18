@@ -1,5 +1,5 @@
 import React from "react";
-import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsYoutube } from "react-icons/bs";
 import { RiTwitterXFill } from "react-icons/ri";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
@@ -47,20 +47,20 @@ function BottomFooter() {
       </div>
     </>
   ) : (
-    <div className="w-full h-[347px] bg-[#232321] rounded-t-[48px] px-24 text-[#E7E7E3] absolute">
-      <div className="flex h-full justify-between ">
+    <div className="w-full h-auto bg-[#232321] rounded-t-[48px] px-24 text-[#E7E7E3] absolute">
+      <div className="flex h-full justify-between mt-10">
         <div className="flex flex-col mt-5">
           <h1 className="text-[#FFA52F] font-bold text-start text-[36px] ">
             About US
           </h1>
           <div className="mt-5">
             <p className="text-[20px] font-semibold text-start">
-              best car accessories in bangalore with best <br />
-              finishing in the field
+              Best Car Accessories in Bangalore with Best <br />
+              Finishing in the Field.
             </p>
           </div>
         </div>
-        <div className="flex flex-col mt-5">
+        {/* <div className="flex flex-col mt-5">
           <h1 className="text-[#FFA52F] font-bold text-start text-[36px] ">
             Categories
           </h1>
@@ -73,15 +73,21 @@ function BottomFooter() {
             </p>
             <p className="text-[20px] font-semibold text-start">Alloy wheels</p>
           </div>
-        </div>
+        </div> */}
         <div className="flex flex-col mt-5">
           <h1 className="text-[#FFA52F] font-bold text-start text-[36px] ">
-            Company
+            Links
           </h1>
           <div className="mt-5">
-            <p className="text-[20px] font-semibold text-start">About</p>
-            <p className="text-[20px] font-semibold text-start">Contact</p>
-            <p className="text-[20px] font-semibold text-start">Product</p>
+            <a href="#aboutus">
+              <p className="text-[20px] font-semibold text-start">About Us</p>
+            </a>
+            <a href="#form">
+              <p className="text-[20px] font-semibold text-start">Contact Us</p>
+            </a>
+            <a href="#product">
+              <p className="text-[20px] font-semibold text-start">Products</p>
+            </a>
           </div>
         </div>
         <div className="flex flex-col mt-5">
@@ -89,15 +95,30 @@ function BottomFooter() {
             Follow Us
           </h1>
           <div className="flex gap-6 mt-5">
-            <BsFacebook className="text-[24px]" />
-            <BsInstagram className="text-[24px]" />
-            <RiTwitterXFill className="text-[24px]" />
+            <a
+              href="https://www.facebook.com/profile.php?id=61553076407522&mibextid=ZbWKwL"
+              target="blank"
+            >
+              <BsFacebook className="text-[24px]" />
+            </a>
+            <a href="">
+              <BsInstagram className="text-[24px]" />
+            </a>
+            <a
+              href="https://youtube.com/@Carvibes555?si=-BJSCoqwQx8bqJUE"
+              target="blank"
+            >
+              <BsYoutube className="text-[24px]" />
+            </a>
           </div>
         </div>
       </div>
-      <p className="text-[20px] font-semibold text-center relative bottom-10 ">
+      <p className="text-[20px] font-light text-center  mt-[80px] mb-4 ">
         Copyright© 2023 car vibes | All Rights Reserved | Developed by{" "}
-        <span className="font-bold">Technow Techies </span> .
+        <a href="https://www.technowtechies.com/" className="" target="blank">
+          <span className="font-bold">Technow Techies </span>
+        </a>
+        .
       </p>
     </div>
   );
