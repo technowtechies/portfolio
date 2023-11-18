@@ -7,8 +7,8 @@ function BottomFooter() {
   const matches = useMediaQuery("(min-width:600px)");
   return !matches ? (
     <>
-      <div className="w-full bg-black rounded-t-xl  mt-6 ">
-        <div className="w-full grid grid-cols-6 gap-5">
+      <div className="w-full bg-black rounded-t-xl  mt-6 absolute  ">
+        {/* <div className="w-full grid grid-cols-6 gap-5">
           <div className="col-span-3">
             <div className="flex flex-col mt-5 px-6 ">
               <h1 className="text-[#FFA52F] font-bold text-start text-[20px] ">
@@ -39,10 +39,17 @@ function BottomFooter() {
               </div>
             </div>
           </div>
-        </div>
-        <p className="text-[13px] font-semibold text-center relative bottom-0 text-[#E7E7E3] mt-10 ">
+        </div> */}
+        <p className="text-[13px] font-normal text-center relative  text-[#E7E7E3] mt-5 mb-8 px-8 ">
           Copyright© 2023 car vibes | All Rights Reserved | Developed by{" "}
-          <span className="font-bold uppercase">Technow Techies </span> .
+          <span
+            className="font-bold uppercase"
+            onClick={() => {
+              window.open("https://www.technowtechies.com/", "_blank");
+            }}
+          >
+            Technow Techies{" "}
+          </span>
         </p>
       </div>
     </>

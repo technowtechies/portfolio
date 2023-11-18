@@ -35,7 +35,7 @@ function Footer() {
 
   return !matches ? (
     <>
-      <div className="flex justify-center w-full mt-7" id="form">
+      <div className="flex justify-center w-full mt-20" id="form">
         <div className="flex-col bg-[#222938] w-[90%] h-auto rounded-[20px] justify-center py-12  ">
           <h1 className="text-white font-medium text-xl w-full text-center  ">
             Contact Us
@@ -82,12 +82,12 @@ function Footer() {
         </div> */}
         </div>
       </div>
-      <div className="w-full mt-5">
+      <div className="w-full mt-20">
         <div className="flex flex-col">
           {/* {container for the text} */}
           <div className="flex justify-center">
-            <div className="w-[205px]">
-              <h1 className="font-bold text-[20px]  w-full text-start  ">
+            <div className="w-full">
+              <h1 className="font-bold text-[30px]  w-full text-center  ">
                 Most Promising <span className="text-[#4A69E2] ">Car</span>
                 <br />
                 <h1 className="text-[#4A69E2]"> Accessories</h1>
@@ -96,9 +96,75 @@ function Footer() {
           </div>
 
           {/* Reach us content */}
-          <div className="w-full">
-            <div className="flex justify-center">
-              <div
+          <div className="w-full mt-10">
+            <div className="flex justify-center ">
+              <img
+                src={gradient}
+                alt=""
+                srcset=""
+                className="opacity-30 relative h-[400px]"
+              />
+              <div className="absolute">
+                <h1 className="text-center text-[24px] font-bold mt-5">
+                  Reach us
+                </h1>
+                <div className="flex items-center gap-2 w-full text-[16px] mt-8">
+                  {" "}
+                  <a href="tel:+91 9199955502">
+                    <div className="flex items-center gap-2">
+                      <FiPhoneCall className="" />
+                      <p>+91 9199955502 </p>
+                    </div>
+                  </a>
+                </div>
+                <div className="flex items-center gap-2 w-full text-[16px] mt-2">
+                  {" "}
+                  <a href="mailto:Carvibes555@gmail.com">
+                    <div className="flex items-center gap-2">
+                      <TfiEmail />
+                      <p className="">Carvibes555@gmail.com</p>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  className="flex items-start gap-2 w-full text-[16px] mt-4"
+                  onClick={() => {
+                    window.open(
+                      "https://maps.app.goo.gl/voLijTYgQL8w7Kf17?g_st=iw",
+                      "_blank"
+                    );
+                  }}
+                >
+                  {" "}
+                  <TfiLocationPin />
+                  <p className="w-[287px] text-start">
+                    525,Bannerghatta Rd,Sundar Ram Shetty
+                    Nagar,Bilekahali,Signal Next to Kalyani motors service
+                    nearby Vega city Mall, Bengaluru 76
+                  </p>
+                </div>
+                <h1 className="text-[#191A15] text-[16px] font-bold mt-5 mb-5 text-center">
+                  Follow Us
+                </h1>
+                <div className="flex justify-around text-start mt-6 ">
+                  <a href="https://instagram.com/carvibes555?igshid=YTQwZjQ0NmI0OA==">
+                    <BsInstagram className="text-pink-600 hover:text-pink-500 text-3xl  cursor-pointer" />
+                  </a>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61553076407522&mibextid=ZbWKwL"
+                    target="blank"
+                  >
+                    <BsFacebook className="text-blue-600 hover:text-blue-500 text-3xl  cursor-pointer" />
+                  </a>
+                  <a
+                    href="https://youtube.com/@Carvibes555?si=-BJSCoqwQx8bqJUE"
+                    target="blank"
+                  >
+                    <BsYoutube className="text-red-600 hover:text-red-500 text-3xl  cursor-pointer" />
+                  </a>
+                </div>
+              </div>
+              {/* <div
                 className="w-[90%] rounded-[30px] bg-cover "
                 style={{
                   backgroundImage: `url(${gradient})`,
@@ -145,7 +211,7 @@ function Footer() {
                     <BsYoutube className="text-red-600 hover:text-red-500 text-3xl  cursor-pointer" />
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -178,20 +244,36 @@ function Footer() {
               </h1>
               <div className="flex items-start gap-2 w-full text-xl">
                 {" "}
-                <FiPhoneCall />
-                <p>+91 9199955502 </p>
+                <a href="tel:+91 9199955502">
+                  <div className="flex items-center gap-3">
+                    <FiPhoneCall />
+                    <p>+91 9199955502 </p>
+                  </div>
+                </a>
               </div>
               <div className="flex items-start gap-2 w-full text-xl mt-2">
                 {" "}
-                <TfiEmail />
-                <p className="">Carvibes555@gmail.com</p>
+                <a href="mailto:Carvibes555@gmail.com">
+                  <div className="flex items-center gap-3">
+                    <TfiEmail />
+                    <p className="">Carvibes555@gmail.com</p>
+                  </div>
+                </a>
               </div>
-              <div className="flex items-start gap-2 w-full text-xl mt-4">
+              <div
+                className="flex items-start gap-2 w-full text-xl mt-4"
+                onClick={() => {
+                  window.open(
+                    "https://maps.app.goo.gl/voLijTYgQL8w7Kf17?g_st=iw",
+                    "_blank"
+                  );
+                }}
+              >
                 {" "}
                 <TfiLocationPin />
                 <p className="w-[287px] text-start">
-                  525,Bannerghatta Rd,Sundar Ram Shetty Nagar,Bilekahali,Signal
-                  Next to Kalyani motors service nearby Vega city Mall,
+                  525, Bannerghatta Rd, Sundar Ram Shetty Nagar, Bilekahali,
+                  Signal Next to Kalyani motors service nearby Vega city Mall,
                   Bengaluru 76
                 </p>
               </div>
@@ -199,7 +281,9 @@ function Footer() {
                 Follow Us
               </h1>
               <div className="flex justify-between text-start mt-6 ">
-                <BsInstagram className="text-pink-600 hover:text-pink-500 text-4xl mx-1 cursor-pointer" />
+                <a href="https://instagram.com/carvibes555?igshid=YTQwZjQ0NmI0OA==">
+                  <BsInstagram className="text-pink-600 hover:text-pink-500 text-3xl  cursor-pointer" />
+                </a>
                 <a
                   href="https://www.facebook.com/profile.php?id=61553076407522&mibextid=ZbWKwL"
                   target="blank"

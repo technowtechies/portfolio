@@ -32,12 +32,16 @@ export default function Home() {
           } `}
           style={{ overflowY: "auto", overflowX: "hidden" }}
         />
-        <div className=" text-white rounded-lg  mx-12 relative top-5  h-16 px-4 flex items-center justify-between ">
+        <div
+          className={`text-white rounded-lg ${
+            !matches ? "" : "mx-4"
+          }   relative top-5  h-16 px-4 flex items-center justify-between `}
+        >
           {/* logo */}
           <img
             src={logo}
             alt=""
-            className="w-[107px] h-[80px]  xl:w-[200px] xl:h-[350px]  object-contain "
+            className="w-[150px] h-[100px]  xl:w-[200px] xl:h-[350px]  object-cover xl:object-contain  "
           />
           {/* div NAv LInks */}
           {!matches ? (
@@ -68,7 +72,10 @@ export default function Home() {
                 </div>
               </div>
             ) : (
-              <GiHamburgerMenu onClick={toggleNav} />
+              <GiHamburgerMenu
+                onClick={toggleNav}
+                className="text-7xl px-5 text-slate-300"
+              />
             )
           ) : (
             <div className="flex w-full items-center gap-10 justify-end px-4">
@@ -93,15 +100,21 @@ export default function Home() {
           )}
         </div>
         {/* eliation text */}
-        <div className="text-white absolute bottom-14 left-20 xl:left-32 ">
+        <div
+          className={`text-white absolute   xl:left-32 ${
+            !matches
+              ? "flex h-full items-center justify-center px-3 "
+              : "left-20 bottom-14"
+          } `}
+        >
           <div className="flex flex-col items-start">
-            <h1 className="text-[22px]  xl:text-[80px] xl:text-start font-extrabold text-slate-300  leading-[1.1]">
+            <h1 className="text-[32px]  xl:text-[80px] xl:text-start font-extrabold text-slate-300  leading-[1.1]">
               Elevate your ride with <br />
               premium car Accessories
             </h1>
             <div className={!matches ? "flex justify-center w-full" : ""}>
               <button
-                className="bg-[#FFA52F] text-black font-bold xl:py-2 px-5 py-1 text-[12px] rounded-lg xl:text-[14px] mt-10 xl:px-8"
+                className="bg-[#FFA52F] text-black font-bold xl:py-2 px-5 py-1 text-[12px] rounded-lg xl:text-[14px] mt-7 xl:px-8"
                 onClick={product}
               >
                 View Products

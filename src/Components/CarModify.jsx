@@ -5,8 +5,8 @@ import fort from "../Assests/Group 1948 (1)-min.png";
 function CarModify() {
   return (
     <div className="w-screen h-full">
-      <h1 className="text-center font-extrabold text-[20px] xl:text-6xl mt-20">
-        Have an Car Modification <br /> Idea?
+      <h1 className="text-center font-extrabold text-[27px] xl:text-6xl mt-20">
+        Having an Car Modification <br /> Idea?
         <span className="text-[#4A69E2]"> Let’s Discuss</span>
       </h1>
       {/* <div className="flex items-center justify-center">
@@ -24,7 +24,7 @@ function CarModify() {
           src={fort}
           alt=""
           srcset=""
-          className="w-[400px] h-[250px] xl:w-[970px] xl:h-[1000px] object-contain mt-10"
+          className="w-[450px] h-[300px] xl:w-[970px] xl:h-[1000px] object-contain mt-10"
         />
       </div>
     </div>
