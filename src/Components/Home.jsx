@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Carimage from "../Assests/nackgroundcompressed.png";
+import Carimage from "../Assests/image 14-min.png";
 import logo from "../Assests/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import useMediaQuery from "@mui/material/useMediaQuery";

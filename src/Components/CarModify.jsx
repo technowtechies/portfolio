@@ -1,6 +1,6 @@
 import React from "react";
 import fortuner from "../Assests/autobotcompressed.png";
-import fort from "../Assests/autobotcompressed.png";
+import fort from "../Assests/Group 1948 (1)-min.png";
 
 function CarModify() {
   return (

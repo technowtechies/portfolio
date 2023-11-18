@@ -6,7 +6,7 @@ import LogoPoineer from "../Assests/Pioneer-logo.png";
 import LogoSony from "../Assests/Sony-logo.png";
 import LogoJBl from "../Assests/jbl-2-logo-png-transparent.png";
 import Gradient from "../Assests/gradiant.jpeg";
-import Spearker from "../Assests/audiocompress.png";
+import Spearker from "../Assests/Group 1942-min.png";
 import Prad from "../Assests/logoprad s.png";
 import Proman from "../Assests/logoproman s.jpeg";
 import Jlaudio from "../Assests/logojlaudio s.png";
