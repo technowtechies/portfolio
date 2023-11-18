@@ -4,7 +4,7 @@ import { FiPhoneCall } from "react-icons/fi";
 import { TfiLocationPin } from "react-icons/tfi";
 import { TfiEmail } from "react-icons/tfi";
 import { BsFacebook, BsInstagram, BsYoutube } from "react-icons/bs";
-import { RiTwitterXFill } from "react-icons/ri";
+// import { RiTwitterXFill } from "react-icons/ri";
 import emailjs from "emailjs-com";
 import { toast } from "react-toastify";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -26,7 +26,7 @@ function Footer() {
       .send("service_scw79ep", "template_7p8psk8", formData)
       .then((response) => {
         event.target.reset();
-        toast.success("Email sent successfully");
+        toast("Email sent successfully");
       })
       .catch((error) => {
         toast.warn("Oops reach us with some other way !");

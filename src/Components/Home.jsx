@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Carimage from "../Assests/Group 1941.jpg";
+import Carimage from "../Assests/nackgroundcompressed.png";
 import logo from "../Assests/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -37,7 +37,7 @@ export default function Home() {
           <img
             src={logo}
             alt=""
-            className="w-[107px] h-[80px]  xl:w-[300px] xl:[500px]  object-contain "
+            className="w-[107px] h-[80px]  xl:w-[200px] xl:h-[350px]  object-contain "
           />
           {/* div NAv LInks */}
           {!matches ? (

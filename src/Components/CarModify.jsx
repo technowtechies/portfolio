@@ -1,6 +1,6 @@
 import React from "react";
-import fortuner from "../Assests/fortuner-19188 1.png";
-import fort from "../Assests/Group 1947 (1).png";
+import fortuner from "../Assests/autobotcompressed.png";
+import fort from "../Assests/autobotcompressed.png";
 
 function CarModify() {
   return (
@@ -24,7 +24,7 @@ function CarModify() {
           src={fort}
           alt=""
           srcset=""
-          className="w-[400px] h-[250px] xl:w-[1000px] xl:h-[1000px] object-contain mt-10"
+          className="w-[400px] h-[250px] xl:w-[970px] xl:h-[1000px] object-contain mt-10"
         />
       </div>
     </div>
