@@ -35,14 +35,20 @@ function ShowBrands() {
         src={Gradient}
         alt=""
         srcset=""
-        className={`absolute  object-cover opacity-25`}
+        className={`absolute ${
+          !matches ? "h-full" : ""
+        } object-cover opacity-25`}
       />
       <div className="relative">
-        <h1 className="text-[#191A15] text-center text-[20px] xl:text-4xl font-extrabold mt-14">
+        <h1 className="text-[#191A15] text-center text-[30px] xl:text-4xl font-extrabold mt-8 xl:mt-14">
           More than <span className="text-[#4A69E2]">25 + Brands</span>
         </h1>
 
-        <Marquee pauseOnHover speed={150} className="h-28 w-full mt-16 ">
+        <Marquee
+          pauseOnHover
+          speed={150}
+          className="h-28 w-full mt-1 xl:mt-16 "
+        >
           <div className="flex justify-center items-center ">
             {logos?.map((e) => (
               <img
@@ -54,27 +60,28 @@ function ShowBrands() {
           </div>
         </Marquee>
         <h1
-          className="text-center font-extrabold text-[20px] xl:text-6xl mt-14"
+          className="text-center font-extrabold text-[30px] xl:text-6xl mt-2 xl:mt-14"
           id="aboutus"
         >
-          About us
+          About <span className="text-[#4A69E2]">Us</span>
         </h1>
       </div>
       <div
         className={`flex ${
           !matches ? "flex-col" : "flex-row px-12"
-        }  items-center gap-12 relative`}
+        }  items-center gap-0 xl:gap-12 relative`}
       >
         <img
           src={Spearker}
           alt=""
           srcset=""
-          className="w-[260px] xl:w-[670px] "
+          className="w-[340px] xl:w-[670px] "
         />
-        <div className="">
+        <div className="flex flex-col justify-center items-center">
           {!matches ? (
-            <h1 className=" text-[18px]  font-extrabold">
-              Premium accessories Best seller
+            <h1 className=" text-[22px]  font-extrabold">
+              Premium Accessories{" "}
+              <span className="text-[#4A69E2]">Best Seller</span>
             </h1>
           ) : (
             <h1 className=" text-4xl  font-extrabold">
@@ -83,7 +90,7 @@ function ShowBrands() {
             </h1>
           )}
 
-          <p className="xl:text-xl text-[12px]  font-normal mt-12 w-[300px]  xl:w-[500px]">
+          <p className="xl:text-xl text-[14px]  font-normal mt-4 xl:mt-12 w-[350px]  xl:w-[500px]">
             "With over 13 years of collective experience, our skilled
             technicians pride themselves on delivering top-notch service. We've
             embraced the convenience of plug-and-play solutions, ensuring a

@@ -11,12 +11,12 @@ import row2img4 from "../Assests/Rectangle 5 (6).png";
 import row3img1 from "../Assests/perfume s.png";
 import row3img2 from "../Assests/carCharges s.png";
 import row3img3 from "../Assests/DVRcamera s.png";
-import row3img4 from "../Assests/carCleaningKit s.png";
+import row3img4 from "../Assests/2305061313128921.webp";
 
 function Products() {
   return (
-    <div className="w-screen h-full" id="product">
-      <h1 className="text-center font-extrabold text-[20px] xl:text-6xl mt-14">
+    <div className="w-full h-full" id="product">
+      <h1 className="text-center font-extrabold text-[30px] xl:text-6xl mt-14">
         Products
       </h1>
       {/* <div className="mx-20 grid gap-6 mt-14">
@@ -37,7 +37,7 @@ function Products() {
         <Myproducts image={row3img3} name="DVR Camera" />
         <Myproducts image={row3img4} name="Car cleaning kit" />
       </div> */}
-      <div className="px-12 xl:mx-24 mr-6 grid grid-cols-2  xl:grid-cols-3 gap-20 mt-14">
+      <div className="xl:px-12 px-6 xl:mx-24 mr-8 grid grid-cols-2  xl:grid-cols-3 gap-20 mt-14">
         <Myproducts image={info} name="Infotainment System" />
         <Myproducts image={Car} name="360 Car Camera" />
         <Myproducts image={Leather} name="Leather Seat Cover" />
@@ -49,7 +49,7 @@ function Products() {
         <Myproducts image={row3img1} name="Perfume" />
         <Myproducts image={row3img2} name="Car Charger" />
         <Myproducts image={row3img3} name="DVR Camera" />
-        <Myproducts image={row3img4} name="Car cleaning kit" />
+        <Myproducts image={row3img4} name="Cardi Ambient Light LED rgb" />
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ function Myproducts({ image, name }) {
           src={image}
           alt=""
           srcset=""
-          className="w-[120px] h-[120px] xl:w-[300px] xl:h-[300px] object-cover"
+          className="w-[160px] h-[160px] xl:w-[300px] xl:h-[300px] object-cover"
         />
         <img
           src={New}
