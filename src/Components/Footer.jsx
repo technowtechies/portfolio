@@ -21,9 +21,9 @@ function Footer() {
       message: event.target.message.value,
     };
 
-    emailjs.init("6ScjgP37CE5TQLWIO");
+    emailjs.init("8Y_C9EN_gHZffo1Y2");
     emailjs
-      .send("service_scw79ep", "template_7p8psk8", formData)
+      .send("service_sdsbmxc", "template_ksswhaj", formData)
       .then((response) => {
         event.target.reset();
         toast("Email sent successfully");
