@@ -308,10 +308,10 @@ function AddCutomer() {
           </p>
           <TextField
             id="filled-multiline-static"
-            label="Say About Us!"
+            label="Intrested In?"
             multiline
             rows={4}
-            placeholder="Anything You Want to Say About Us ?"
+            placeholder="What product you are Intrested In ?"
             size="small"
             margin="normal"
             fullWidth
