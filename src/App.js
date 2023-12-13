@@ -1,28 +1,19 @@
-import CarModify from "./Components/CarModify";
-import Categoriy from "./Components/Categoriy";
-import Footer from "./Components/Footer";
-import Home from "./Components/Home";
-import Products from "./Components/Products";
-import ShowBrands from "./Components/ShowBrands";
-import Gallabox from "./Components/gallabox";
-import BottomFooter from "./Components/bottomFooter";
+import Home from "./Pages/Home";
+
 import React from "react";
 import "./App.css"; // Import the global styles
 import "tailwindcss/tailwind.css"; // Import Tailwind CSS styles
-import { ToastContainer } from "react-toastify";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AddCutomer from "./Pages/AddCutomer";
 
 const App = () => {
   return (
-    <div className="App w-full h-full">
-      <Home />
-      <ShowBrands />
-      <Gallabox />
-      <Categoriy />
-      <Products />
-      <CarModify />
-      <Footer />
-      <BottomFooter />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/addCustomer" element={<AddCutomer />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
